@@ -1,0 +1,1 @@
+When we increment the number and then rotate our device, the number remains unchanged. This is because we’re using a ViewModel, which persists the data even when the configuration changes. As a result, when the activity is recreated, our observer will update the UI with the existing data.
